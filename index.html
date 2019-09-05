@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Sima</title>
+	<title>Система городских парковок</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,7 +30,7 @@
 <!--        </div>-->
 <!-- end preloader -->
 <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browserupgrade">Вы используете<strong>усторевший</strong> браузер. Пожалуйста, <a href="http://browsehappy.com/">обновите его</a>.</p>
 <![endif]-->
 
 
@@ -146,7 +146,7 @@
 				</div>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<br class="text">
+				<div class="text">
 					<p class="fa fa-save"> Агрегированное хранение и доступ к списку парковок, </p> </br>
 					<p class="fa fa-info"> Информация о загруженности и стоимости парковки online,</p></br>
 					<p class="fa fa-car"> Контроль и предсказуемость парковки автомобилей </p></br>
@@ -216,7 +216,7 @@
 					<h2>УСТАНОВКА</h2>
 					<div class="service_hoverly">
 						<i class="fa fa-github"></i>
-					<a href="/docs/compile_and_start.docx">	<h2>УСТАНОВКА</h2>
+					<a href="./docs/compile_and_start.docx">	<h2>УСТАНОВКА</h2>
 						<p>Руководство по сборке и запуску</p></a>
 					</div>
 				</div>
@@ -227,7 +227,7 @@
 					<h2>ФУНКЦИИ</h2>
 					<div class="service_hoverly">
 						<i class="fa fa-gears"></i>
-					<a href="/docs/functionality.docx">	<h2>ФУНКЦИИ</h2>
+					<a href="./docs/functionality.docx">	<h2>ФУНКЦИИ</h2>
 						<p>Описание основных функций и преимуществ АСГП</p></a>
 					</div>
 				</div>
@@ -238,8 +238,19 @@
 					<h2>ИНСТРУКЦИИ</h2>
 					<div class="service_hoverly">
 						<i class="fa fa-user"></i>
-						<a href="/docs/user_instruction.docx"><h2>ИНСТРУКЦИИ</h2>
+						<a href="./docs/user_instruction.docx"><h2>ИНСТРУКЦИИ</h2>
 							<p>Руководство по работе с АСГП от лица разных пользователей</p> </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="service">
+					<i class="fa fa-chain"></i>
+					<h2>КАК РАБОТАЕТ</h2>
+					<div class="service_hoverly">
+						<i class="fa fa-chain"></i>
+						<a href="./docs/connection_diagramm.png"><h2>КАК РАБОТАЕТ</h2>
+							<p>Схема взаимодействия модулей АСГП</p> </a>
 					</div>
 				</div>
 			</div>
@@ -297,10 +308,11 @@
 			<div class="col-lg-12">
 				<div class="map">
 					<h1>Мы на карте</h1><a href="#slidingDiv" class="show_hide" rel="#slidingDiv"><i class="fa fa-angle-up"></i></a>
-					<div id="slidingDiv">
+                </div>
+                    <div id="slidingDiv">
 						<div class="map_area">
-							<div id="googleMap" style="width:100%;height:300px;"></div>
-						</div>
+							<iframe src="https://yandex.ru/map-widget/v1/-/CGG~MJpZ" width="1200" height="400" frameborder="1" allowfullscreen="true">
+							</iframe>
 					</div>
 				</div>
 			</div>
