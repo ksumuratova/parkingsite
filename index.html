@@ -3,15 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Система городских парковок</title>
-	<meta name="description" content="">
+	<title>Книготека</title>
+	<meta name="description" content="Система для библиотеки и читателей.Делаем знания доступными">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script> <![endif]-->
 	<!-- Place favicon.ico in the root directory -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,6 +20,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/2e422410ce.js" crossorigin="anonymous"></script>
 
 </head>
 <body >
@@ -55,7 +57,7 @@
 							<div id="navbar">
 								<ul>
 									<li><a class="page-scroll" href="#abt_sec">О проекте</a></li>
-									<li><a class="page-scroll" href="#links_sec">Ссылки</a></li>
+									<!--<li><a class="page-scroll" href="#links_sec">Ссылки</a></li>-->
 									<li><a class="page-scroll" href="#ctn_sec">Контакты</a></li>
 								</ul>
 							</div>
@@ -71,6 +73,10 @@
 
 <!-- start slider Section -->
 <section id="slider_sec">
+	<div class="sliderBg">
+		<img src="img/back3.jpg" alt="">
+		<div class="sliderHover"></div>
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="slider">
@@ -88,16 +94,16 @@
 						<div class="item active">
 							<div class="wrap_caption">
 								<div class="caption_carousel">
-									<h1>АСГП</h1>
-									<p>АВТОМАТИЗИРОВАННАЯ СИСТЕМА ГОРОДСКОГО ПАРКИНГА</p>
+									<h1>Книготека</h1>
+									<p>ВСЕ ФУНКЦИИ СОВРЕМЕННОЙ БИБЛИОТЕКИ</p>
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="wrap_caption">
 								<div class="caption_carousel">
-									<h1>Для города</h1>
-									<p>ВСЕ ПАРКОВКИ В ОДНОМ МЕСТЕ</p>
+									<h1>Для читаталей</h1>
+									<p>УДОБНЫЙ ПОИСК КНИГ</p>
 								</div>
 							</div>
 						</div>
@@ -105,16 +111,16 @@
 						<div class="item ">
 							<div class="wrap_caption">
 								<div class="caption_carousel">
-									<h1>Для водителей</h1>
-									<p>УДОБНО ПАРКОВАТЬСЯ, УДОБНО ОПЛАЧИВАТЬ</p>
+									<h1>Для библиотек</h1>
+									<p>ПРИТОК НОВЫХ ЧИТАТЕЛЕЙ</p>
 								</div>
 							</div>
 						</div>
 						<div class="item ">
 							<div class="wrap_caption">
 								<div class="caption_carousel">
-									<h1>Для пешеходов</h1>
-									<p>СВОБОДНЫЕ ТРОТУАРЫ, СПОКОЙНЫЕ ПEРЕХОДЫ</p>
+									<h1>Библиотека нового поколения</h1>
+									<p>ДОСТУПНОСТЬ ФУНКЦИЙ БИБЛИОТЕКИ ОНЛАЙН</p>
 								</div>
 							</div>
 						</div>
@@ -146,16 +152,16 @@
 				</div>
 			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-				<div class="text">
-					<p class="fa fa-save"> Агрегированное хранение и доступ к списку парковок, </p> </br>
-					<p class="fa fa-info"> Информация о загруженности и стоимости парковки online,</p></br>
-					<p class="fa fa-car"> Контроль и предсказуемость парковки автомобилей </p></br>
-					<p class="fa fa-thumbs-up"> Минимизация случаев нарушения ПДД, не правильной и хаотичной парковки автомобилей,</p></br>
-					<p class="fa fa-bus">	Обеспечение свободного, безопасного и комфортного передвижения для пешеходов, общественного и личного транспорта,</p></br>
-					<p class="fa fa-eye"> Контроль за использованием платных парковок, </p></br>
-					<p class="fa fa-money">	Установка тарифов для расчета стоимости парковочной сессии, </p></br>
-					<p class="fa fa-thumbs-down">	Инициация процедуры штрафования за несвоевременное внесение оплаты за парковочную сессию.</p>
-				</div>
+				<ul class="advantages">
+					<li><i class="fas fa-user-plus"></i>Регистрация и авторизация читателей через портал Госуслуги</li>
+					<li><i class="fas fa-user-circle"></i>Личный кабинет читателя</li>
+					<li><i class="fas fa-search"></i>Полнотекстовый, быстрый поиск с учетом морфологии языка по всем доступным фондам</li>
+					<li><i class="fas fa-book"></i>Заказ книг, с возможностью забрать книги в удобное время</li>
+					<li><i class="fas fa-history"></i>История заказов книг с выводом статуса заказа</li>
+					<li><i class="fas fa-users"></i>Рекомендательная система, основанная на предпочтениях пользователей со схожими вкусами</li>
+					<li><i class="fas fa-bell"></i>Уведомления для пользователя по смс и email, о сроке сдачи книги в библиотеку и статусе заказа книг</li>
+					<li><i class="fas fa-thumbs-up"></i>Оценка книг, позволяющая узнать мнение о книге среди других читателей</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -163,40 +169,41 @@
 <!-- End About Section -->
 
 <!-- start Counting section-->
+
 <section id="counting_sec">
 	<div class="container">
 		<div class="row">
 
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<div class="counting_sl">
-					<i class="fa fa-clock-o"></i>
-					<h2 class="counter">43,753</h2>
-					<h4>Автомобилей в час</h4>
-					<p>минимум проезжает по дорогам России</p>
+					<i class="fas fa-book-reader"></i>
+					<h2 class="counter">39,000</h2>
+					<h4>Библиотек</h4>
+					<p>в среднем функционирует в России</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<div class="counting_sl">
-					<i class="fa fa-desktop"></i>
-					<h2 class="counter">20,210</h2>
-					<h4>Квадратных метров парковок</h4>
-					<p>минимум, которым требуется постоянное обслуживание</p>
+					<i class="fas fa-kaaba"></i>
+					<h2 class="counter">1,200</h2>
+					<h4>Квадратных метров</h4>
+					<p>занимает самый большой читальный зал России</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<div class="counting_sl">
-					<i class="fa fa-ticket"></i>
-					<h2 class="counter">1,566</h2>
-					<h4>Камер</h4>
-					<p>минимум установлено по России</p>
+					<i class="fas fa-check"></i>
+					<h2 class="counter">1037</h2>
+					<h4>год</h4>
+					<p>открытия первой библиотеки на Руси</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<div class="counting_sl">
-					<i class="fa fa-user"></i>
-					<h2 class="counter">45,105</h2>
-					<h4>Водителей</h4>
-					<p>минимум пользуются услугами платных парковок</p>
+					<i class="fas fa-book"></i>
+					<h2 class="counter">711</h2>
+					<h4>книг в год</h4>
+					<p>в среднем выпускается на душу населения в России</p>
 				</div>
 			</div>
 		</div>
@@ -205,6 +212,7 @@
 
 
 <!-- start progress bar Section -->
+<!--
 <section id="links_sec">
 	<div class="container">
 		<div class="row">
@@ -215,56 +223,66 @@
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div class="service">
-					<i class="fa fa-github"></i>
-					<h2>УСТАНОВКА</h2>
-					<div class="service_hoverly">
-						<i class="fa fa-github"></i>
-						<a href="./docs/compile_and_start.docx">	<h2>УСТАНОВКА</h2>
-							<p>Руководство по сборке и запуску</p></a>
+				<a href="./docs/compile_and_start.docx">
+					<div class="linkBox">
+						<div class="linkBox_title">
+							<i class="fab fa-github"></i>
+							<h2>УСТАНОВКА</h2>
+						</div>
+						<div class="linkBox_link">
+							<p>Руководство по сборке и запуску</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div class="service">
-					<i class="fa fa-gears"></i>
-					<h2>ФУНКЦИИ</h2>
-					<div class="service_hoverly">
-						<i class="fa fa-gears"></i>
-						<a href="./docs/functionality.docx">	<h2>ФУНКЦИИ</h2>
-							<p>Описание основных функций и преимуществ АСГП</p></a>
+				<a href="./docs/functionality.docx">
+					<div class="linkBox">
+						<div class="linkBox_title">
+							<i class="fa fa-gears"></i>
+							<h2>ФУНКЦИИ</h2>
+						</div>
+						<div class="linkBox_link">
+							<p>Описание основных функций и преимуществ АСГП</p>
+						</div>
 					</div>
-				</div>
+				</a>
+
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div class="service">
-					<i class="fa fa-user"></i>
-					<h2>ИНСТРУКЦИИ</h2>
-					<div class="service_hoverly">
-						<i class="fa fa-user"></i>
-						<a href="./docs/user_instruction.docx"><h2>ИНСТРУКЦИИ</h2>
-							<p>Руководство по работе с АСГП для пользователей</p> </a>
+				<a href="./docs/user_instruction.docx">
+					<div class="linkBox">
+						<div class="linkBox_title">
+							<i class="fa fa-user"></i>
+							<h2>ИНСТРУКЦИИ</h2>
+						</div>
+						<div class="linkBox_link">
+							<p>Руководство по работе с АСГП для пользователей</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-				<div class="service">
-					<i class="fa fa-chain"></i>
-					<h2>КАК РАБОТАЕТ</h2>
-					<div class="service_hoverly">
-						<i class="fa fa-chain"></i>
-						<a href="./docs/maintenance.docx"><h2>СОПРОВОЖДЕНИЕ</h2>
-							<p>Оказание технической поддержки клиентов</p> </a>
+				<a href="./docs/maintenance.docx">
+					<div class="linkBox">
+						<div class="linkBox_title">
+							<i class="fa fa-chain"></i>
+							<h2>КАК РАБОТАЕТ</h2>
+						</div>
+						<div class="linkBox_link">
+							<p>Оказание технической поддержки клиентов</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
 </section>
+-->
 <!-- End progress bar Section -->
 
 <!-- start contact us Section -->
-<section id="ctn_sec">
+<section id="ctn_sec" >
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
@@ -273,14 +291,17 @@
 					<h2>ЖДЕМ ВАШЕГО ПИСЬМА</h2>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-3 col-md-3 col-sm-12">
 				<div class="cnt_info">
 					<ul>
 						<li><i class="fa fa-home"></i><p>г. Пенза, ул. Суворова, 64Б, 6 этаж</p></li>
 						<li><i class="fa fa-envelope"></i><p>info@codeinside.com</p></li>
-						<li><i class="fa fa-phone">+7 (8412) 63-67-36</i><p></p></li>
+						<li><i class="fa fa-phone"></i><p>+7 (8412) 63-67-36</p></li>
 					</ul>
 				</div>
+			</div>
+			<div class="col-md-9">
+				<iframe src="https://yandex.ru/map-widget/v1/-/CGG~MJpZ" width="877" height="450" frameborder="1" allowfullscreen="true">
 			</div>
 		</div>
 	</div>
@@ -314,11 +335,11 @@
 			<div class="col-lg-12">
 				<div class="ft">
 					<ul>
-						<li><a href="https://www.facebook.com/codeinside.ru/"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.linkedin.com/company/codeinside/about/"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://vk.com/codeinside"><i class="fa fa-vk"></i></a></li>
-						<li><a href="https://codeinside.ru/"><i class="fa fa-google"></i></a></li>
-						<li><a href="https://penza.hh.ru/employer/1096944"><i class="fa fa-newspaper-o"></i></a></li>
+						<li><a href="https://www.facebook.com/codeinside.ru/"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/codeinside/about/"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="https://vk.com/codeinside"><i class="fab fa-vk"></i></a></li>
+						<li><a href="https://codeinside.ru/"><i class="fab fa-google"></i></a></li>
+						<li><a href="https://penza.hh.ru/employer/1096944"><i class="fas fa-newspaper"></i></a></li>
 
 					</ul>
 				</div>
@@ -350,22 +371,23 @@
 <!-- Google Map js -->
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
-	function initialize() {
-		var mapOptions = {
-			zoom: 14,
-			scrollwheel: false,
-			center: new google.maps.LatLng(41.092586000000000000, -75.592688599999970000)
-		};
-		var map = new google.maps.Map(document.getElementById('googleMap'),
-				mapOptions);
-		var marker = new google.maps.Marker({
-			position: map.getCenter(),
-			animation:google.maps.Animation.BOUNCE,
-			icon: 'img/map-marker.png',
-			map: map
-		});
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
+    function initialize() {
+        var mapOptions = {
+            zoom: 14,
+            zoomControl: false,
+            scrollwheel: false,
+            center: new google.maps.LatLng(41.092586000000000000, -75.592688599999970000)
+        };
+        var map = new google.maps.Map(document.getElementById('googleMap'),
+            mapOptions);
+        var marker = new google.maps.Marker({
+            position: map.getCenter(),
+            animation:google.maps.Animation.BOUNCE,
+            icon: 'img/map-marker.png',
+            map: map
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 <script src="js/main.js"></script>
 
@@ -373,50 +395,50 @@
 
 <script type="text/javascript">
 
-	$(document).ready(function(){
+    $(document).ready(function(){
 
 
-		$('.show_hide').showHide({
-			speed: 1000,  // speed you want the toggle to happen
-			easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
-			changeText: 1, // if you dont want the button text to change, set this to 0
-			showText: 'View',// the button text to show when a div is closed
-			hideText: 'Close' // the button text to show when a div is open
+        $('.show_hide').showHide({
+            speed: 1000,  // speed you want the toggle to happen
+            easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
+            changeText: 1, // if you dont want the button text to change, set this to 0
+            showText: 'View',// the button text to show when a div is closed
+            hideText: 'Close' // the button text to show when a div is open
 
-		});
+        });
 
 
-	});
+    });
 
 </script>
 <script>
-	jQuery(document).ready(function( $ ) {
-		$('.counter').counterUp({
-			delay: 10,
-			time: 1000
-		});
-	});
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
 </script>
 
 <script>
 
-	//Hide Overflow of Body on DOM Ready //
-	$(document).ready(function(){
-		$("body").css("overflow", "hidden");
-	});
+    //Hide Overflow of Body on DOM Ready //
+    $(document).ready(function(){
+        $("body").css("overflow", "hidden");
+    });
 
-	// Show Overflow of Body when Everything has Loaded
-	$(window).load(function(){
-		$("body").css("overflow", "visible");
-		var nice=$('html').niceScroll({
-			cursorborder:"5",
-			cursorcolor:"#00AFF0",
-			cursorwidth:"3px",
-			boxzoom:true,
-			autohidemode:true
-		});
+    // Show Overflow of Body when Everything has Loaded
+    $(window).load(function(){
+        $("body").css("overflow", "visible");
+        var nice=$('html').niceScroll({
+            cursorborder:"5",
+            cursorcolor:"#00AFF0",
+            cursorwidth:"3px",
+            boxzoom:true,
+            autohidemode:true
+        });
 
-	});
+    });
 </script>
 
 
